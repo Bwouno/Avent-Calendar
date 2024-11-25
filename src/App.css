@@ -2,19 +2,20 @@
   text-align: center;
 }
 
-.illustration {
+/* .illustration {
   position: relative;
   margin: 0 auto;
   height: 99vh;
   background : url('https://imgur.com/KgIyOJL.jpg') no-repeat top center;
   background-size: contain;
-}
+} */
  
 .i-large,
 .i-medium,
 .i-small {
   position : absolute;
   top: 0; right: 0; bottom: 0; left: 0;
+  z-index: 1;
 }
  
 .i-large {
